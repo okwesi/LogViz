@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="logviz",
-    version=0.1,  
+    version=0.3,  
     author="Owusu Kenneth",
     author_email="okwesi73@gmail.com",
     description="LogViz: A Python logging library for visualized, structured, and customizable console output.",
@@ -24,4 +24,5 @@ setup(
         "Topic :: System :: Logging",
     ],
     python_requires='>=3.8',
+    license_files="LICENSE",
 )

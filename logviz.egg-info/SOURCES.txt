@@ -10,5 +10,4 @@ logviz/styles.py
 logviz.egg-info/PKG-INFO
 logviz.egg-info/SOURCES.txt
 logviz.egg-info/dependency_links.txt
-logviz.egg-info/requires.txt
 logviz.egg-info/top_level.txt

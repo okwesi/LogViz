@@ -4,9 +4,6 @@
 
 LogViz: A Python logging library for colorful and styled console output.
 
-### Owners ###
-* KenCorp Inc.
-
 ### Programmer ###
 * Owusu Kenneth Gyamfi [okwesi]
 
@@ -68,6 +65,3 @@ LogViz: A Python logging library for colorful and styled console output.
         ├── formatters.py
         ├── logger.py
         └── styles.py
-
-### License ###
-MIT License
