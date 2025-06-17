@@ -59,26 +59,6 @@ LogViz: A Python logging library for colorful and styled console output.
   - `logger.critical(msg: str)`
   - `logger.exception(msg: str)`
 
-### Customization ###
-To override styles, pass your own `style_map` to `get_logger`:
-    import logging
-    from logviz import get_logger
-    from logviz.styles import LogLevelStyle, Style
-
-    custom_styles = {
-        logging.INFO: LogLevelStyle(foreground_color=Style.CYAN, bold=True),
-        logging.SUCCESS: LogLevelStyle(foreground_color=Style.BRIGHT_GREEN)
-    }
-    logger = get_logger(name="custom", level=logging.DEBUG, style_map=custom_styles)
-
-### Packaging & Publishing ###
-1. Ensure `setup.py` and `pyproject.toml` are configured.
-2. Build distributions:
-    
-        python setup.py sdist bdist_wheel
-3. Upload to PyPI:
-    
-        twine upload dist/*
 
 ### Project Structure ###
     logviz/
